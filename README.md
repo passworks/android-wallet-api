@@ -2,9 +2,10 @@
 
 This document describes how to use the [Passworks Android Wallet](https://play.google.com/store/apps/details?id=io.passworks.wallet) API for
 
-- Registering a Device to Receive Push Notifications for a Pass
-- Sending Push Notifications to the Wallet App
-- Installing Passworks Wallet and automatically install a pass after instalation
+* [Registering a Device to Receive Push Notifications for a Pass](#registering-a-device-to-receive-push-notifications-for-a-pass)
+* [Sending Push Notifications to the Wallet App](#sending-push-notifications-to-the-wallet-app)
+* [Installing Passworks Wallet and automatically install a pass after instalation](#installing-passworks-wallet-and-automatically-install-a-pass-after-instalation)
+
 
 # Getting started
 
@@ -84,4 +85,5 @@ Please tell us how we can make the Passworks Wallet API better. If you have a sp
 
 To talk with us and other developers about the API open a support ticket or mail us at [api@passworks.io](mailto:api@passworks.io) if you need to talk to us.
 
-
+"Passbook" and "iOS" are registered trademarks of Apple Inc.<br />
+Passworks Passbook Wallet is not affiliated with Apple or Passbook/Wallet in any way.
