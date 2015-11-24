@@ -59,6 +59,23 @@ Payload [POST body content]:
 | __pushTokens__    |  Array of String | Yes | Example: ["538156984fb963f2eccc92664f85876d72000923ea226e6befb8", "7d633f073fa7c73750c62e6b0236423c99bb841527512fa6c0f0"]
 
 
+Successful response example, it's the raw Google Cloud Messaging response:
+
+```
+{
+  "multicast_id": 6711075249753793221,
+  "success": 1,
+  "failure": 0,
+  "canonical_ids": 0,
+  "results": [
+    {
+      "message_id": "0:1448367205781799%4c47223ef9fd7ecd"
+    }
+  ]
+}
+```
+
+
 # Installing Passworks Wallet and automatically install a pass after instalation
 
 When trying to server a Passbook (.pkpass) file to a client and if your client requires instalation of the Passworks Wallet App you can redirect him to the Wallet App Google Play Store page and specify a pass to be downloaded and installed automatily after instalation by passing the `referrer` parameter in the Google Play Store URL
