@@ -1,4 +1,4 @@
-# Passworks Android API
+# Passworks Android Wallet App API
 
 This document describes how to use the [Passworks Android Wallet](https://play.google.com/store/apps/details?id=io.passworks.wallet) API for regitering devices and sending push notification to the Passworks Wallet App.
 
