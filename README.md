@@ -13,7 +13,7 @@ Passworks Wallet follows Apple's Wallet oficial API for registering a device for
 
 [https://developer.apple.com/library/ios/documentation/PassKit/Reference/PassKit_WebService/WebService.html#//apple_ref/doc/uid/TP40011988-CH0-SW2](https://developer.apple.com/library/ios/documentation/PassKit/Reference/PassKit_WebService/WebService.html#//apple_ref/doc/uid/TP40011988-CH0-SW2) 
 
-The major difference is that the Passworks Wallet App sends a [custom HTTP  header](http://tools.ietf.org/html/rfc6648) called `X-Pass-Client` with each request with the value `Passworks`.
+The major difference is that the Passworks Wallet App sends a [custom HTTP  header](http://tools.ietf.org/html/rfc6648) called `X-Pass-Client` with the value `Passworks` with each request.
 
 If your system already implements the Apple Wallet (or Passbook) API you only need to take in account the new header flaging the registering device as and Android device using Passworks Wallet.
 
