@@ -75,7 +75,7 @@ To see how this works please remove all Passbook compatible apps and open the fo
 
 [https://play.google.com/store/apps/details?id=io.passworks.wallet&referrer=https%3A%2F%2Fpassworks.io%2Fp%2Fhello-passworks.pkpass](https://play.google.com/store/apps/details?id=io.passworks.wallet&referrer=https%3A%2F%2Fpassworks.io%2Fp%2Fhello-passworks.pkpass)
 
-NOTE: To avoid braking URL's please encode the `referrer` URL using [URL encoding](https://en.wikipedia.org/wiki/Percent-encoding).
+__NOTE: To avoid braking URL's please encode the `referrer` URL using [URL encoding](https://en.wikipedia.org/wiki/Percent-encoding).__
 
 
 # Help us make it better
