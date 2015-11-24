@@ -37,7 +37,7 @@ Authorization: <Wallet App Key>
 Sending push notifications to Passworks Wallet API consists in sending a `POST` with a specific payload to the following Wallet App endpoint with the content type `"application/json"`.
 
 ```
-POST https://wallet.passworks.io
+POST https://wallet.passworks.io/v1/push
 ```
 
 Payload [POST body content]:
