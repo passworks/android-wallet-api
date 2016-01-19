@@ -42,7 +42,7 @@ POST https://wallet.passworks.io/v1/push
 
 Payload [POST body content]:
 
-```
+```json
 {
 	"passTypeIdentifier": "pass.io.passworks.public.generic",
 	"pushTokens":[
@@ -56,12 +56,12 @@ Payload [POST body content]:
 |Name                | Type             | Required | Description                       |
 |--------------------|------------------|----------|-------------------------|
 | __passTypeIdentifier__ |  String          | Yes | The `passTypeIdentifier ` eg: *"pass.io.passworks.public.generic"*  |
-| __pushTokens__    |  Array of String | Yes | Example: ["538156984fb963f2eccc92664f85876d72000923ea226e6befb8", "7d633f073fa7c73750c62e6b0236423c99bb841527512fa6c0f0"]
+| __pushTokens__    |  Array of Strings | Yes | Example: ["538156984fb963f2eccc92664f85876d72000923ea226e6befb8", "7d633f073fa7c73750c62e6b0236423c99bb841527512fa6c0f0"]
 
 
 Successful response example, it's the raw Google Cloud Messaging response:
 
-```
+```json
 {
   "multicast_id": 6711075249753793221,
   "success": 1,
