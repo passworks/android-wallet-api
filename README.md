@@ -37,7 +37,7 @@ Authorization: <Wallet App Key>
 Sending push notifications to Passworks Wallet API consists in sending a `POST` with a specific payload to the following Wallet App endpoint with the content type `"application/json"`.
 
 ```
-POST https://wallet.passworks.io/v1/push
+POST https://wallet.passworks.io/v1/pushUpdate
 ```
 
 Payload [POST body content]:
@@ -86,7 +86,7 @@ GET https://play.google.com/store/apps/details?id=io.passworks.wallet&referrer={
 
 | Name | Type| Value | Description |
 |------|-------|-------------|-----|
-| __referrer__ | String | eg: https://passworks.io/p/hello-passworks.pkpass | URL to the PKPASS file to be installed when the user first opens PassWorks Wallet App | 
+| __referrer__ | String | eg: https://passworks.io/p/hello-passworks.pkpass | URL to the PKPASS file to be installed when the user first opens PassWorks Wallet App |
 
 
 To see how this works please remove all Passbook compatible apps and open the following URL in your Android Phone.
